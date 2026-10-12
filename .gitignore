@@ -20,6 +20,9 @@ coverage/
 data/raw/
 data/generated/
 benchmarks/raw/
+artifacts/
+playwright-report/
+test-results/
 *.heapsnapshot
 *.cpuprofile
 *.trace.json

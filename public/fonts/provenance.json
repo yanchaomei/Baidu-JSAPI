@@ -1,0 +1,7 @@
+{
+  "family": "Noto Sans SC",
+  "source": "https://github.com/google/fonts/tree/main/ofl/notosanssc",
+  "subsetAPI": "https://developers.google.com/fonts/docs/css2",
+  "glyphs": 338,
+  "sha256": "9194ea73cbc4eb924d31adb0049d011f8db4f62e590070da5e1d173833b596db"
+}
