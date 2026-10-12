@@ -1,0 +1,365 @@
+{
+  "method": "CPU delta for Chrome processes present in adjacent samples, normalized by actual epoch interval; RSS sum can double-count shared pages; GPU is whole shared device, not Chrome attribution; process births/exits may omit CPU work",
+  "samples": [
+    {
+      "epoch": 1791803144.2070603,
+      "processCount": 10,
+      "browserCpuCorePercent": null,
+      "browserRssSumBytes": 744665088,
+      "gpuDeviceSamplesCSV": "0, 0, 24553\n1, 100, 31817",
+      "cpuCoreSecondsDelta": null,
+      "sampleIntervalSeconds": null
+    },
+    {
+      "epoch": 1791803145.28266,
+      "processCount": 10,
+      "browserCpuCorePercent": 158.98108255722403,
+      "browserRssSumBytes": 1012658176,
+      "gpuDeviceSamplesCSV": "0, 0, 24612\n1, 30, 31817",
+      "cpuCoreSecondsDelta": 1.71,
+      "sampleIntervalSeconds": 1.0755996704101562
+    },
+    {
+      "epoch": 1791803146.3570323,
+      "processCount": 10,
+      "browserCpuCorePercent": 133.10097544651376,
+      "browserRssSumBytes": 1059438592,
+      "gpuDeviceSamplesCSV": "0, 1, 24612\n1, 41, 31817",
+      "cpuCoreSecondsDelta": 1.43,
+      "sampleIntervalSeconds": 1.0743722915649414
+    },
+    {
+      "epoch": 1791803147.452669,
+      "processCount": 10,
+      "browserCpuCorePercent": 116.82705677571624,
+      "browserRssSumBytes": 1077788672,
+      "gpuDeviceSamplesCSV": "0, 1, 24612\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.28,
+      "sampleIntervalSeconds": 1.0956366062164307
+    },
+    {
+      "epoch": 1791803148.5549045,
+      "processCount": 10,
+      "browserCpuCorePercent": 115.22038038887666,
+      "browserRssSumBytes": 1094303744,
+      "gpuDeviceSamplesCSV": "0, 1, 24612\n1, 85, 31817",
+      "cpuCoreSecondsDelta": 1.27,
+      "sampleIntervalSeconds": 1.1022355556488037
+    },
+    {
+      "epoch": 1791803149.6605918,
+      "processCount": 10,
+      "browserCpuCorePercent": 113.95626132458051,
+      "browserRssSumBytes": 1117597696,
+      "gpuDeviceSamplesCSV": "0, 1, 24612\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.26,
+      "sampleIntervalSeconds": 1.1056873798370361
+    },
+    {
+      "epoch": 1791803150.7686024,
+      "processCount": 10,
+      "browserCpuCorePercent": 120.93747876470225,
+      "browserRssSumBytes": 1159823360,
+      "gpuDeviceSamplesCSV": "0, 0, 24612\n1, 71, 31817",
+      "cpuCoreSecondsDelta": 1.34,
+      "sampleIntervalSeconds": 1.1080105304718018
+    },
+    {
+      "epoch": 1791803151.8745549,
+      "processCount": 10,
+      "browserCpuCorePercent": 132.917100714187,
+      "browserRssSumBytes": 1259024384,
+      "gpuDeviceSamplesCSV": "0, 21, 24612\n1, 89, 31817",
+      "cpuCoreSecondsDelta": 1.47,
+      "sampleIntervalSeconds": 1.105952501296997
+    },
+    {
+      "epoch": 1791803152.9796178,
+      "processCount": 10,
+      "browserCpuCorePercent": 122.16498488663358,
+      "browserRssSumBytes": 1281957888,
+      "gpuDeviceSamplesCSV": "0, 31, 24612\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.35,
+      "sampleIntervalSeconds": 1.1050629615783691
+    },
+    {
+      "epoch": 1791803154.090901,
+      "processCount": 10,
+      "browserCpuCorePercent": 123.28092135285137,
+      "browserRssSumBytes": 1297547264,
+      "gpuDeviceSamplesCSV": "0, 47, 24612\n1, 67, 31817",
+      "cpuCoreSecondsDelta": 1.37,
+      "sampleIntervalSeconds": 1.1112830638885498
+    },
+    {
+      "epoch": 1791803155.1976612,
+      "processCount": 10,
+      "browserCpuCorePercent": 127.39886374431856,
+      "browserRssSumBytes": 1312096256,
+      "gpuDeviceSamplesCSV": "0, 56, 24612\n1, 38, 31817",
+      "cpuCoreSecondsDelta": 1.41,
+      "sampleIntervalSeconds": 1.1067602634429932
+    },
+    {
+      "epoch": 1791803156.3079119,
+      "processCount": 10,
+      "browserCpuCorePercent": 117.99136776050314,
+      "browserRssSumBytes": 1320353792,
+      "gpuDeviceSamplesCSV": "0, 59, 24612\n1, 64, 31817",
+      "cpuCoreSecondsDelta": 1.31,
+      "sampleIntervalSeconds": 1.11025071144104
+    },
+    {
+      "epoch": 1791803157.423747,
+      "processCount": 10,
+      "browserCpuCorePercent": 106.64657387195972,
+      "browserRssSumBytes": 1307930624,
+      "gpuDeviceSamplesCSV": "0, 60, 24612\n1, 80, 31817",
+      "cpuCoreSecondsDelta": 1.19,
+      "sampleIntervalSeconds": 1.115835189819336
+    },
+    {
+      "epoch": 1791803158.530355,
+      "processCount": 10,
+      "browserCpuCorePercent": 103.01751737064924,
+      "browserRssSumBytes": 1140760576,
+      "gpuDeviceSamplesCSV": "0, 11, 24619\n1, 28, 31817",
+      "cpuCoreSecondsDelta": 1.14,
+      "sampleIntervalSeconds": 1.1066079139709473
+    },
+    {
+      "epoch": 1791803159.6439738,
+      "processCount": 10,
+      "browserCpuCorePercent": 152.65546186823144,
+      "browserRssSumBytes": 1114021888,
+      "gpuDeviceSamplesCSV": "0, 27, 24619\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.7,
+      "sampleIntervalSeconds": 1.1136188507080078
+    },
+    {
+      "epoch": 1791803160.7501972,
+      "processCount": 10,
+      "browserCpuCorePercent": 138.3084173000043,
+      "browserRssSumBytes": 1173659648,
+      "gpuDeviceSamplesCSV": "0, 34, 24619\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.53,
+      "sampleIntervalSeconds": 1.1062233448028564
+    },
+    {
+      "epoch": 1791803161.8634696,
+      "processCount": 10,
+      "browserCpuCorePercent": 141.02567887158165,
+      "browserRssSumBytes": 1147580416,
+      "gpuDeviceSamplesCSV": "0, 43, 24619\n1, 62, 31817",
+      "cpuCoreSecondsDelta": 1.57,
+      "sampleIntervalSeconds": 1.1132724285125732
+    },
+    {
+      "epoch": 1791803162.978285,
+      "processCount": 10,
+      "browserCpuCorePercent": 136.34543438393882,
+      "browserRssSumBytes": 1205383168,
+      "gpuDeviceSamplesCSV": "0, 50, 24619\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.52,
+      "sampleIntervalSeconds": 1.1148154735565186
+    },
+    {
+      "epoch": 1791803164.0899227,
+      "processCount": 10,
+      "browserCpuCorePercent": 127.73947281163554,
+      "browserRssSumBytes": 1172086784,
+      "gpuDeviceSamplesCSV": "0, 49, 24619\n1, 17, 31817",
+      "cpuCoreSecondsDelta": 1.42,
+      "sampleIntervalSeconds": 1.1116375923156738
+    },
+    {
+      "epoch": 1791803165.2017975,
+      "processCount": 10,
+      "browserCpuCorePercent": 106.12705495673781,
+      "browserRssSumBytes": 1152741376,
+      "gpuDeviceSamplesCSV": "0, 58, 24619\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.18,
+      "sampleIntervalSeconds": 1.1118748188018799
+    },
+    {
+      "epoch": 1791803166.3150654,
+      "processCount": 10,
+      "browserCpuCorePercent": 104.19774085832306,
+      "browserRssSumBytes": 1146593280,
+      "gpuDeviceSamplesCSV": "0, 8, 24626\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.16,
+      "sampleIntervalSeconds": 1.1132678985595703
+    },
+    {
+      "epoch": 1791803167.4249377,
+      "processCount": 10,
+      "browserCpuCorePercent": 146.8637373467877,
+      "browserRssSumBytes": 1180045312,
+      "gpuDeviceSamplesCSV": "0, 23, 24626\n1, 52, 31817",
+      "cpuCoreSecondsDelta": 1.63,
+      "sampleIntervalSeconds": 1.1098723411560059
+    },
+    {
+      "epoch": 1791803168.5003045,
+      "processCount": 10,
+      "browserCpuCorePercent": 150.64628155058904,
+      "browserRssSumBytes": 1177718784,
+      "gpuDeviceSamplesCSV": "0, 38, 24626\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.62,
+      "sampleIntervalSeconds": 1.075366735458374
+    },
+    {
+      "epoch": 1791803169.5974743,
+      "processCount": 10,
+      "browserCpuCorePercent": 144.00687025952962,
+      "browserRssSumBytes": 1178443776,
+      "gpuDeviceSamplesCSV": "0, 42, 24626\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.58,
+      "sampleIntervalSeconds": 1.0971698760986328
+    },
+    {
+      "epoch": 1791803170.7077703,
+      "processCount": 10,
+      "browserCpuCorePercent": 137.8010895186281,
+      "browserRssSumBytes": 1232576512,
+      "gpuDeviceSamplesCSV": "0, 52, 24626\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.53,
+      "sampleIntervalSeconds": 1.1102960109710693
+    },
+    {
+      "epoch": 1791803171.8193552,
+      "processCount": 10,
+      "browserCpuCorePercent": 130.44437700074533,
+      "browserRssSumBytes": 1183100928,
+      "gpuDeviceSamplesCSV": "0, 53, 24626\n1, 98, 31817",
+      "cpuCoreSecondsDelta": 1.45,
+      "sampleIntervalSeconds": 1.1115849018096924
+    },
+    {
+      "epoch": 1791803172.9299,
+      "processCount": 10,
+      "browserCpuCorePercent": 108.05508503504322,
+      "browserRssSumBytes": 1156853760,
+      "gpuDeviceSamplesCSV": "0, 59, 24626\n1, 68, 31817",
+      "cpuCoreSecondsDelta": 1.2,
+      "sampleIntervalSeconds": 1.1105446815490723
+    },
+    {
+      "epoch": 1791803174.0434,
+      "processCount": 10,
+      "browserCpuCorePercent": 111.36056293757352,
+      "browserRssSumBytes": 1160716288,
+      "gpuDeviceSamplesCSV": "0, 12, 24634\n1, 100, 31817",
+      "cpuCoreSecondsDelta": 1.24,
+      "sampleIntervalSeconds": 1.1135001182556152
+    },
+    {
+      "epoch": 1791803175.1606426,
+      "processCount": 10,
+      "browserCpuCorePercent": 153.95045256617774,
+      "browserRssSumBytes": 1165783040,
+      "gpuDeviceSamplesCSV": "0, 27, 24634\n1, 0, 31817",
+      "cpuCoreSecondsDelta": 1.72,
+      "sampleIntervalSeconds": 1.1172425746917725
+    },
+    {
+      "epoch": 1791803176.2760198,
+      "processCount": 10,
+      "browserCpuCorePercent": 143.449231130314,
+      "browserRssSumBytes": 1230925824,
+      "gpuDeviceSamplesCSV": "0, 32, 24634\n1, 0, 16179",
+      "cpuCoreSecondsDelta": 1.6,
+      "sampleIntervalSeconds": 1.1153771877288818
+    },
+    {
+      "epoch": 1791803177.3869593,
+      "processCount": 10,
+      "browserCpuCorePercent": 146.72266095632733,
+      "browserRssSumBytes": 1232777216,
+      "gpuDeviceSamplesCSV": "0, 46, 24634\n1, 41, 17189",
+      "cpuCoreSecondsDelta": 1.63,
+      "sampleIntervalSeconds": 1.1109395027160645
+    },
+    {
+      "epoch": 1791803178.500573,
+      "processCount": 10,
+      "browserCpuCorePercent": 144.5743830759132,
+      "browserRssSumBytes": 1226420224,
+      "gpuDeviceSamplesCSV": "0, 49, 24634\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.61,
+      "sampleIntervalSeconds": 1.1136136054992676
+    },
+    {
+      "epoch": 1791803179.6126077,
+      "processCount": 10,
+      "browserCpuCorePercent": 131.2908555614539,
+      "browserRssSumBytes": 1160826880,
+      "gpuDeviceSamplesCSV": "0, 62, 24634\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.46,
+      "sampleIntervalSeconds": 1.112034797668457
+    },
+    {
+      "epoch": 1791803180.7292683,
+      "processCount": 10,
+      "browserCpuCorePercent": 104.77668911229661,
+      "browserRssSumBytes": 1160826880,
+      "gpuDeviceSamplesCSV": "0, 60, 24634\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.17,
+      "sampleIntervalSeconds": 1.1166605949401855
+    },
+    {
+      "epoch": 1791803181.8453813,
+      "processCount": 10,
+      "browserCpuCorePercent": 102.14020028979023,
+      "browserRssSumBytes": 1113833472,
+      "gpuDeviceSamplesCSV": "0, 10, 24641\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.14,
+      "sampleIntervalSeconds": 1.1161129474639893
+    },
+    {
+      "epoch": 1791803182.9610257,
+      "processCount": 10,
+      "browserCpuCorePercent": 146.10389472730412,
+      "browserRssSumBytes": 1159340032,
+      "gpuDeviceSamplesCSV": "0, 27, 24641\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.63,
+      "sampleIntervalSeconds": 1.1156444549560547
+    },
+    {
+      "epoch": 1791803184.0615346,
+      "processCount": 10,
+      "browserCpuCorePercent": 142.6612687665096,
+      "browserRssSumBytes": 1198686208,
+      "gpuDeviceSamplesCSV": "0, 32, 24641\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.57,
+      "sampleIntervalSeconds": 1.1005089282989502
+    },
+    {
+      "epoch": 1791803185.1598372,
+      "processCount": 10,
+      "browserCpuCorePercent": 147.50033332501198,
+      "browserRssSumBytes": 1196875776,
+      "gpuDeviceSamplesCSV": "0, 46, 24641\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.62,
+      "sampleIntervalSeconds": 1.0983026027679443
+    },
+    {
+      "epoch": 1791803186.2746463,
+      "processCount": 10,
+      "browserCpuCorePercent": 136.34622169069652,
+      "browserRssSumBytes": 1214304256,
+      "gpuDeviceSamplesCSV": "0, 48, 24641\n1, 0, 22917",
+      "cpuCoreSecondsDelta": 1.52,
+      "sampleIntervalSeconds": 1.1148090362548828
+    },
+    {
+      "epoch": 1791803187.3857431,
+      "processCount": 10,
+      "browserCpuCorePercent": 122.40157003509233,
+      "browserRssSumBytes": 1158238208,
+      "gpuDeviceSamplesCSV": "0, 63, 24641\n1, 100, 22917",
+      "cpuCoreSecondsDelta": 1.36,
+      "sampleIntervalSeconds": 1.1110968589782715
+    }
+  ]
+}
