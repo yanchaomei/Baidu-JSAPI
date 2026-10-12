@@ -13,6 +13,7 @@ coverage/
 !.env.example
 !.env.*.example
 *.local
+.agents/*.local.toml
 *.pem
 *.key
 
@@ -20,6 +21,9 @@ coverage/
 data/raw/
 data/generated/
 benchmarks/raw/
+artifacts/
+playwright-report/
+test-results/
 *.heapsnapshot
 *.cpuprofile
 *.trace.json

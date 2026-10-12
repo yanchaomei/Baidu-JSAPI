@@ -1,0 +1,8 @@
+{
+  "node": "v22.23.3",
+  "platform": "linux",
+  "release": "5.15.0-191-generic",
+  "cpuModel": "Intel(R) Xeon(R) Gold 5218R CPU @ 2.10GHz",
+  "logicalCPUs": 80,
+  "memoryBytes": 134746226688
+}

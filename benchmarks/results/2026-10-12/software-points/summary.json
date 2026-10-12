@@ -1,0 +1,273 @@
+{
+  "protocol": {
+    "repeats": 5,
+    "scales": [
+      10000,
+      100000,
+      1000000
+    ],
+    "delay": 8,
+    "lines": 89,
+    "areas": 40,
+    "seed": 42,
+    "batch": 4096,
+    "viewport": {
+      "width": 1600,
+      "height": 1000
+    },
+    "deviceScaleFactor": 1,
+    "trajectory": "absolute cameraAt(elapsedMs), 40 ms timer; steady window requested 2000 ms",
+    "context": "offline WebGL / software ANGLE SwiftShader",
+    "assets": [
+      {
+        "filename": "index-CrtmiYA2.css",
+        "sha256": "f0ca228eeaddab4297d5ff0ee3af8045d18a7901928207d5e2664398109fd9b6"
+      },
+      {
+        "filename": "index-DhwsSHUE.js",
+        "sha256": "e12548cb2db00540641156954d4c4a35e7b62ee95492ba74033b942507c86e26"
+      },
+      {
+        "filename": "worker-bhNhz0MA.js",
+        "sha256": "3d9dae0d9cb2d9f0a302452452dbb3d42cd7121e8fa90ba9ed53ffe95c4cfea8"
+      }
+    ],
+    "excludes": [
+      "Baidu integration",
+      "CPU utilization",
+      "GPU utilization",
+      "hardware GPU performance",
+      "network-only transfer timing"
+    ]
+  },
+  "summary": [
+    {
+      "count": 10000,
+      "mode": "full",
+      "runs": 5,
+      "firstDrawMedianMs": 59.59999990463257,
+      "firstDrawRangeMs": [
+        56.299999952316284,
+        510.59999990463257
+      ],
+      "completionMedianMs": 89.20000004768372,
+      "loadingP95MedianMs": 33.30000000000001,
+      "loadingP99MedianMs": 33.30000000000001,
+      "steadyP95MedianMs": 16.799999999999955,
+      "steadyP99MedianMs": 16.80000000000001,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 1863456,
+      "downloadBytes": 291824
+    },
+    {
+      "count": 10000,
+      "mode": "main",
+      "runs": 5,
+      "firstDrawMedianMs": 15.399999856948853,
+      "firstDrawRangeMs": [
+        9.700000047683716,
+        18.200000047683716
+      ],
+      "completionMedianMs": 56.69999980926514,
+      "loadingP95MedianMs": 16.700000000000017,
+      "loadingP99MedianMs": 16.700000000000017,
+      "steadyP95MedianMs": 16.700000000000273,
+      "steadyP99MedianMs": 16.800000000000068,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 1863456,
+      "downloadBytes": 291824
+    },
+    {
+      "count": 10000,
+      "mode": "worker-basic",
+      "runs": 5,
+      "firstDrawMedianMs": 20.199999809265137,
+      "firstDrawRangeMs": [
+        17.600000143051147,
+        28.399999856948853
+      ],
+      "completionMedianMs": 68.79999995231628,
+      "loadingP95MedianMs": 16.700000000000017,
+      "loadingP99MedianMs": 16.700000000000017,
+      "steadyP95MedianMs": 16.700000000000273,
+      "steadyP99MedianMs": 16.800000000000068,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 1863456,
+      "downloadBytes": 291824
+    },
+    {
+      "count": 10000,
+      "mode": "worker",
+      "runs": 5,
+      "firstDrawMedianMs": 28.200000047683716,
+      "firstDrawRangeMs": [
+        15.800000190734863,
+        31.90000009536743
+      ],
+      "completionMedianMs": 74.39999985694885,
+      "loadingP95MedianMs": 16.700000000000017,
+      "loadingP99MedianMs": 16.700000000000017,
+      "steadyP95MedianMs": 16.700000000000273,
+      "steadyP99MedianMs": 16.799999999999955,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 1863456,
+      "downloadBytes": 291824
+    },
+    {
+      "count": 100000,
+      "mode": "full",
+      "runs": 5,
+      "firstDrawMedianMs": 271.7000000476837,
+      "firstDrawRangeMs": [
+        266.39999985694885,
+        278.2999999523163
+      ],
+      "completionMedianMs": 475.7000000476837,
+      "loadingP95MedianMs": 16.700000000000045,
+      "loadingP99MedianMs": 33.30000000000001,
+      "steadyP95MedianMs": 50,
+      "steadyP99MedianMs": 166.60000000000014,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 3698352,
+      "downloadBytes": 2812352
+    },
+    {
+      "count": 100000,
+      "mode": "main",
+      "runs": 5,
+      "firstDrawMedianMs": 21.200000047683716,
+      "firstDrawRangeMs": [
+        8.400000095367432,
+        33.299999952316284
+      ],
+      "completionMedianMs": 250,
+      "loadingP95MedianMs": 16.799999999999983,
+      "loadingP99MedianMs": 16.799999999999983,
+      "steadyP95MedianMs": 66.60000000000014,
+      "steadyP99MedianMs": 150,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 3698352,
+      "downloadBytes": 2812352
+    },
+    {
+      "count": 100000,
+      "mode": "worker-basic",
+      "runs": 5,
+      "firstDrawMedianMs": 24.299999952316284,
+      "firstDrawRangeMs": [
+        17.59999990463257,
+        30.5
+      ],
+      "completionMedianMs": 264.7000000476837,
+      "loadingP95MedianMs": 16.80000000000001,
+      "loadingP99MedianMs": 16.80000000000001,
+      "steadyP95MedianMs": 66.60000000000014,
+      "steadyP99MedianMs": 133.29999999999995,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 3698352,
+      "downloadBytes": 2812352
+    },
+    {
+      "count": 100000,
+      "mode": "worker",
+      "runs": 5,
+      "firstDrawMedianMs": 14.900000095367432,
+      "firstDrawRangeMs": [
+        12.700000047683716,
+        21.59999990463257
+      ],
+      "completionMedianMs": 260.09999990463257,
+      "loadingP95MedianMs": 16.700000000000045,
+      "loadingP99MedianMs": 16.700000000000045,
+      "steadyP95MedianMs": 50,
+      "steadyP99MedianMs": 149.9000000000001,
+      "longTaskMedian": 0,
+      "queuePeak": 2,
+      "gpuBytes": 3698352,
+      "downloadBytes": 2812352
+    },
+    {
+      "count": 1000000,
+      "mode": "full",
+      "runs": 5,
+      "firstDrawMedianMs": 2323.399999856949,
+      "firstDrawRangeMs": [
+        2289,
+        2379
+      ],
+      "completionMedianMs": 12295.299999952316,
+      "loadingP95MedianMs": 200.10000000000036,
+      "loadingP99MedianMs": 350,
+      "steadyP95MedianMs": 433.2999999999993,
+      "steadyP99MedianMs": 433.2999999999993,
+      "longTaskMedian": 7,
+      "queuePeak": 2,
+      "gpuBytes": 29386896,
+      "downloadBytes": 28017632
+    },
+    {
+      "count": 1000000,
+      "mode": "main",
+      "runs": 5,
+      "firstDrawMedianMs": 14.699999809265137,
+      "firstDrawRangeMs": [
+        8.200000047683716,
+        41.700000047683716
+      ],
+      "completionMedianMs": 10328.800000190735,
+      "loadingP95MedianMs": 250,
+      "loadingP99MedianMs": 400,
+      "steadyP95MedianMs": 416.7000000000007,
+      "steadyP99MedianMs": 416.7000000000007,
+      "longTaskMedian": 8,
+      "queuePeak": 2,
+      "gpuBytes": 29386896,
+      "downloadBytes": 28017632
+    },
+    {
+      "count": 1000000,
+      "mode": "worker-basic",
+      "runs": 5,
+      "firstDrawMedianMs": 31.5,
+      "firstDrawRangeMs": [
+        19.200000047683716,
+        40.10000014305115
+      ],
+      "completionMedianMs": 10611.900000095367,
+      "loadingP95MedianMs": 266.60000000000036,
+      "loadingP99MedianMs": 366.7000000000007,
+      "steadyP95MedianMs": 533.2999999999993,
+      "steadyP99MedianMs": 533.2999999999993,
+      "longTaskMedian": 9,
+      "queuePeak": 2,
+      "gpuBytes": 29386896,
+      "downloadBytes": 28017632
+    },
+    {
+      "count": 1000000,
+      "mode": "worker",
+      "runs": 5,
+      "firstDrawMedianMs": 28.800000190734863,
+      "firstDrawRangeMs": [
+        20.600000143051147,
+        48
+      ],
+      "completionMedianMs": 11062.5,
+      "loadingP95MedianMs": 283.3000000000002,
+      "loadingP99MedianMs": 349.89999999999964,
+      "steadyP95MedianMs": 500,
+      "steadyP99MedianMs": 500,
+      "longTaskMedian": 8,
+      "queuePeak": 2,
+      "gpuBytes": 29386896,
+      "downloadBytes": 28017632
+    }
+  ]
+}
