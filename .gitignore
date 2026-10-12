@@ -1,0 +1,32 @@
+# Dependencies and build outputs
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.pem
+*.key
+
+# Large local datasets and profiling artifacts
+data/raw/
+data/generated/
+benchmarks/raw/
+*.heapsnapshot
+*.cpuprofile
+*.trace.json
+
+# Logs and editor files
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.swp
